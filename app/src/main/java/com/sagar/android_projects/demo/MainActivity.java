@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         LOGIC- (LOADING MORE DATA)
         --------------------------------------------------------------------------------------------
         we perform the server call for more data once the last item of the dataset is visible on the
-        screen. this also means that the user has finished scrolling to the end of the list and new
+        screen. this also means that the user has finished scrolling to the end of the list and now
         we have to get more data, if available, to display.
         so how to know if the last item in the dataset is showing or not.
         this can be done by adding the total item that are visible currently on the screen and the
